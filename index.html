@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <!-- Font link here ? -->
-    <!-- Font awesome cdn here ? -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <title>Barber site</title>
   </head>
   <body>
@@ -24,11 +28,11 @@
     <div id="sideNav">
       <nav>
         <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">FEATURES</a></li>
-          <li><a href="#">SERVICES</a></li>
-          <li><a href="#">TESTIMONIALS</a></li>
-          <li><a href="#">MEET US</a></li>
+          <li><a href="#banner">HOME</a></li>
+          <li><a href="#features">FEATURES</a></li>
+          <li><a href="#service">SERVICES</a></li>
+          <li><a href="#testimonial">TESTIMONIALS</a></li>
+          <li><a href="#footer">MEET US</a></li>
         </ul>
       </nav>
     </div>
@@ -101,19 +105,132 @@
         <div class="single-service">
           <img src="images/pic-1.jpg" />
           <div class="overlay"></div>
+          <div class="service-desc">
+            <h3>Hair Styling</h3>
+            <hr />
+            <p>
+              this is the test under description of barber foundation this test
+              under description of barber foundation.
+            </p>
+          </div>
         </div>
         <div class="single-service">
           <img src="images/pic-2.jpg" />
           <div class="overlay"></div>
+          <div class="service-desc">
+            <h3>Beard Trim</h3>
+            <hr />
+            <p>
+              this is the test under description of barber foundation this test
+              under description of barber foundation.
+            </p>
+          </div>
         </div>
         <div class="single-service">
           <img src="images/pic-3.jpg" />
           <div class="overlay"></div>
+          <div class="service-desc">
+            <h3>Hair Cut</h3>
+            <hr />
+            <p>
+              this is the test under description of barber foundation this test
+              under description of barber foundation.
+            </p>
+          </div>
         </div>
         <div class="single-service">
           <img src="images/pic-4.jpg" />
           <div class="overlay"></div>
+          <div class="service-desc">
+            <h3>Dry Shampoo</h3>
+            <hr />
+            <p>
+              this is the test under description of barber foundation this test
+              under description of barber foundation.
+            </p>
+          </div>
         </div>
+      </div>
+    </section>
+    <!-- Testimonial -->
+    <section id="testimonial">
+      <div class="title-text">
+        <p>TESTIMONIAL</p>
+        <h1>What Client Says</h1>
+      </div>
+      <div class="testimonial-row">
+        <div class="testimonial-col">
+          <div class="user">
+            <img src="images/img-1.jpg" alt="user" />
+            <div class="user-info">
+              <h4>KEN NORMAN <i class="fa fa-twitter"></i></h4>
+              <small>@kennorman</small>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
+            molestiae, exercitationem similique totam repudiandae laboriosam,
+            explicabo quam saepe ipsa tenetur ab. Non facilis qui dicta enim
+            laborum obcaecati quia maiores?
+          </p>
+        </div>
+        <div class="testimonial-col">
+          <div class="user">
+            <img src="images/img-2.jpg" alt="user" />
+            <div class="user-info">
+              <h4>John Wick <i class="fa fa-twitter"></i></h4>
+              <small>@thebabiyaga</small>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
+            molestiae, exercitationem similique totam repudiandae laboriosam,
+            explicabo quam saepe ipsa tenetur ab.
+          </p>
+        </div>
+        <div class="testimonial-col">
+          <div class="user">
+            <img src="images/img-3.jpg" alt="user" />
+            <div class="user-info">
+              <h4>James Bond <i class="fa fa-twitter"></i></h4>
+              <small>@James007</small>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
+            molestiae, exercitationem similique totam repudiandae laboriosam,
+            explicabo quam saepe ipsa tenetur ab. Non facilis qui dicta enim
+            laborum obcaecati quia maiores?
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <section id="footer">
+      <img src="images/footer-img.png" alt="footer-img" class="footer-img" />
+      <div class="title-text">
+        <p>CONTACT</p>
+        <h1>Visit Shop Today</h1>
+      </div>
+      <div class="footer-row">
+        <div class="footer-left">
+          <h1>Opening Hours</h1>
+          <p><i class="fa fa-clock-o"></i>Monday to Friday - 9am to 9pm</p>
+          <p><i class="fa fa-clock-o"></i>Saturday and Sunday - 8am to 11pm</p>
+        </div>
+        <div class="footer-right">
+          <h1>Get In Touch</h1>
+          <p>#30 abc Colony, xyz City IN<i class="fa fa-map"></i></p>
+          <p>iamabarber2022@gmail.com<i class="fa fa-paper-plane"></i></p>
+          <p>+234 8012345678<i class="fa fa-phone"></i></p>
+        </div>
+      </div>
+      <div class="social-links">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-Youtube"></i>
+        <p>Copyright Dickson Anthony</p>
       </div>
     </section>
   </body>
